@@ -1,3 +1,7 @@
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,5 +27,7 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-.p1 {
+.p1 {'
+	margin: auto;
+}
 	
