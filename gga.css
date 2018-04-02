@@ -1,3 +1,42 @@
+h1 {
+	text-align: center;
+	font-family: "print bold";
+	font-size: 48px;
+	color: white;
+	font-style: bold;
+	background: yellow;
+}
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+	bottom: -5px;
+    left: 80%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 body {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -26,8 +65,3 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-
-.p1 {'
-	margin: auto;
-}
-	
