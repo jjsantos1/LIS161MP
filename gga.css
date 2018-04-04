@@ -1,15 +1,15 @@
 @font-face {
     font-family: "printbold";
-    src: url("printbold.ttf");
+    src: url("images/printbold.ttf");
 }
 
 h1 {
 	text-indent: 19.4%;
 	font-family: printbold;
 	font-size: 60px;
-	color: white;
+	color: rgb(0,122,3);
 	font-style: bold;
-	background: rgb(0,122,3);
+	background: white;
 	border: 1px solid black;
 	margin-left: 11.2%;
 	padding: 5px 0 5px 0;
@@ -78,7 +78,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: printbold;
-	background-image: url("green_gobbler.png");
+	background-image: url("images/green_gobbler.png");
 }
 
 ul {
