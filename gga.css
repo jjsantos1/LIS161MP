@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "printbold";
+    src: url("printbold.ttf");
+}
+
 h1 {
 	text-indent: 19.4%;
-	font-family: "print bold";
+	font-family: printbold;
 	font-size: 60px;
 	color: white;
 	font-style: bold;
@@ -64,7 +69,7 @@ p.heading {
 body {
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: "print bold";
+	font-family: printbold;
 }
 
 ul {
