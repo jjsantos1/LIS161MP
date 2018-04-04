@@ -160,3 +160,8 @@ li a:hover:not(.active) {
     background: #1abc9c;
     color: white
 }
+
+.text {
+	margin: 0 10% 0 10%;
+	text-align: justify;
+}
